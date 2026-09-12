@@ -1,78 +1,64 @@
-# Claude-Study-Guide #
-https://claudecertificationguide.com/blog/new-claude-certifications-2026
+# Claude Study Guide
 
-# While completing the Course work you will not be able to test until you have been accepted to the Claude Partner Network! #
-While Studying, you will notice a lot of the courses will be regurgitated information. Told time with out labs 40-45 hours, labs 2-4 hours. Highly recommend completing some labs to assist understanding.
+A study path for the [2026 Claude certifications](https://claudecertificationguide.com/blog/new-claude-certifications-2026), built from working through the courses at [Anthropic Academy](https://academy.claude.com/).
 
-# Use the link below to begin your Journey. #
-https://academy.claude.com/
+**14 courses · 326 lessons · 36 quizzes · 47.75 hours.**
 
-Begin Here 
-AI Fluency: Framework & Foundations Learn to collaborate with AI effectively, efficiently, ethically, and safely using the 4D framework: Delegation, Description, Discernment, and Diligence. 14 lessons · 1 quiz 
-4 hr
+> [!IMPORTANT]
+> **You cannot sit the exam until you have been accepted to the Claude Partner Network.**
+> Do the coursework first if you like, but build the acceptance wait into your schedule.
 
-Claude 101: Learn to use Claude for everyday work, from your first conversation and effective prompting to projects, artifacts, skills, and connected tools. 
-13 lessons · 1 quiz 
-2.5 hr
+> [!TIP]
+> The Academy's own estimate is 40–45 hours excluding labs, plus 2–4 hours of labs.
+> The per-course figures below add up to 47.75. Budget 50.
 
-Introduction to Claude Cowork: Delegate multi-step work to Claude in Cowork: set up workspaces, give context, run task loops, and use plugins for research, documents, and browser tasks. 
-14 lessons · 1 quiz 
-2.5 hr
+---
 
-Claude Platform 101: This course teaches developers to build on the Claude Platform from the ground up, whether you've made a few API calls or have only used Claude through a chat window. 13 lessons · 1 quiz 
-1.5 hr
+## 1. How to use this guide
 
-Claude Code 101: Get started with Claude Code. Learn the basics of navigating your codebase, issuing commands, and standardizing your development workflow. 
-12 lessons · 1 quiz 
-1.5 hr
+Take the courses **in order** — later ones assume the earlier ones. **Do the labs**: much of the content repeats itself, and the labs are where the understanding actually happens. `Cum.` is the running hour count, so you can see where you stand at any point.
 
-Claude Code in Action: Run long, hands-off Claude Code sessions you can trust: steer, configure, automate, and verify. 
-9 lessons · 1 quiz 
-1 hr
+**Marks** — ▶ start here · ⚑ do the lab, highest value in the course · ↺ heavily repeats earlier material, move fast
 
+---
 
-AI Capabilities and Limitations Understand what Claude excels at and where its boundaries lie. Master the fundamental constraints to avoid common pitfalls in AI workflows. 
-13 lessons · 1 quiz 
-3.5 hr
+## 2. The path
 
-Building with the Claude API: Dive deeper into the API. Learn how to structure requests, manage system prompts, format responses, and integrate Claude into your custom applications. 
-67 lessons · 8 quizzes 9 hr
-Regurgitated 
+| # | Course | Hrs | Cum. | Lessons | Quizzes | What it covers |
+|:--:|---|--:|--:|--:|--:|---|
+| 1 | ▶ [AI Fluency: Framework & Foundations](https://academy.claude.com/courses/ai-fluency-framework-foundations) | 4.0 | 4.0 | 14 | 1 | The 4D framework: Delegation, Description, Discernment, Diligence |
+| 2 | [Claude 101](https://academy.claude.com/courses/claude-101) | 2.5 | 6.5 | 13 | 1 | Everyday work: prompting, projects, artifacts, skills, connected tools |
+| 3 | [Introduction to Claude Cowork](https://academy.claude.com/courses/introduction-to-claude-cowork) | 2.5 | 9.0 | 14 | 1 | Delegating multi-step work: workspaces, context, task loops, plugins |
+| 4 | [Claude Platform 101](https://academy.claude.com/courses/claude-platform-101) | 1.5 | 10.5 | 13 | 1 | Building on the Claude Platform from the ground up |
+| 5 | [Claude Code 101](https://academy.claude.com/courses/claude-code-101) | 1.5 | 12.0 | 12 | 1 | Navigating a codebase, issuing commands, standardizing your workflow |
+| 6 | [Claude Code in Action](https://academy.claude.com/courses/claude-code-in-action) | 1.0 | 13.0 | 9 | 1 | Long hands-off sessions: steer, configure, automate, verify |
+| 7 | [AI Capabilities and Limitations](https://academy.claude.com/courses/ai-capabilities-and-limitations) | 3.5 | 16.5 | 13 | 1 | What Claude does well, where the boundaries are, common pitfalls |
+| 8 | ↺ [Building with the Claude API](https://academy.claude.com/courses/building-with-the-claude-api) | 9.0 | 25.5 | 67 | 8 | Requests, system prompts, response formats, app integration |
+| 9 | [Introduction to Model Context Protocol](https://academy.claude.com/courses/introduction-to-model-context-protocol) | 1.0 | 26.5 | 10 | 1 | Connecting Claude to external data and tools; server/client architecture |
+| 10 | ⚑ [Model Context Protocol: Advanced Topics](https://academy.claude.com/courses/model-context-protocol-advanced-topics) | 1.5 | 28.0 | 11 | 1 | Custom servers, secure auth, multi-tool workflows — **do the lab** |
+| 11 | ↺ [Claude with Amazon Bedrock](https://academy.claude.com/courses/claude-with-amazon-bedrock) | 8.0 | 36.0 | 65 | 8 | Deploying and scaling Claude in enterprise cloud via Bedrock |
+| 12 | ↺ [Claude with Google Cloud's Vertex AI](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai) | 8.5 | 44.5 | 66 | 9 | The same as course 11, via Vertex AI |
+| 13 | [Deploying Claude Enterprise with Confidence](https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence) | 2.5 | 47.0 | 14 | 1 | Governance, security, risk, data privacy, compliance, user management |
+| 14 | [Building Effective Human Agent Teams (Beta)](https://academy.claude.com/courses/building-effective-human-agent-teams) | 0.75 | 47.75 | 5 | 1 | **Capstone.** Multi-agent systems, AI↔human hand-offs, autonomous workflows |
+| | **Core total** | **47.75** | | **326** | **36** | |
+| + | [AI Fluency, for builders](https://academy.claude.com/courses/ai-fluency-for-builders) | 3.0 | 50.75 | 9 | 1 | *Optional.* Specialized industry fluency — not required for the core track |
 
-Introduction to Model Context Protocol: Learn the standard protocol for connecting Claude to external data sources and tools. Understand the basic architecture of MCP servers and clients. 10 lessons · 1 quiz 
-1 hr
+**Courses 1–7 get you to 16.5 hours with almost no repetition.** The three ↺ courses are 25.5 hours between them — 53% of the whole path — and are largely material you have covered by then. You can stop after the capstone; anything beyond it goes quickly, because by that point you already know it.
 
-Model Context Protocol: Advanced Topics Master complex integrations. Build custom MCP servers, manage secure authentication, and handle complex multi-tool workflows. 
-11 lessons · 1 quiz 
-1.5 hr
-do the lab!!! 
+---
 
-Claude with Amazon Bedrock: Learn to deploy, scale, and manage Claude models securely within enterprise cloud environments via Amazon Bedrock. 
-65 lessons · 8 quizzes 
-8 hr
-Regurgitated 
+## 3. Certification tracks
 
-Claude with Google Cloud's Vertex AI: Learn to deploy, scale, and manage Claude models securely within enterprise cloud environments via Google Cloud's Vertex AI. 
-66 lessons · 9 quizzes 
-8.5 hr
-Regurgitated 
+Course 14, *Building Effective Human Agent Teams*, is the capstone for the **Architect Professional** certification.
 
-Deploying Claude Enterprise with Confidence: The five decisions that shape your rollout Master the governance, security, and risk management required for enterprise-wide Claude deployment. Learn to navigate data privacy, compliance, and large-scale user management. 
-14 lessons · 1 quiz 
-2.5 hr
+<!-- TODO: map the remaining courses to their certification tracks. -->
 
-Building Effective Human Agent Teams (Beta): The capstone for the Architect Professional certification. Design robust multi-agent systems, handle hand-offs between AI and human operators, and architect complex, autonomous workflows. 
-5 lessons · 1 quiz 
-45 min
+---
 
-Specialized Industry Fluency (Optional / Choose Your Path)
+## 4. Exam prep
 
-AI Fluency for Builders 9 lessons · 1 quiz 3 hr
+Once the coursework is done, use Claude itself to drill. Ask it for CCAR-P-style questions matching the PearsonVue exam format:
 
-You can stop here but completing the rest of the classes will be quick its all repeated information you should know everything now.
+> Generate 20 multiple-choice questions in CCAR-P format covering Model Context Protocol server architecture, authentication, and multi-tool workflows. For each, give four options, mark the correct answer, and explain why each distractor is wrong.
 
-# Now use Claude to product CCAR-P questions just like what would be on the PearsonVue exam. #
-
-
-
-
+Rotate the topic through the 14 courses above, and re-drill anything you scored badly on.
